@@ -13,8 +13,9 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/moff4/aqara_capi',
     install_requires=[
-        '',
         'pydantic>=1.9.0',
+        'rocketmq-client-python>=2.0.0',
+        'mapping-shortcuts>=1.1.0',
     ],
     packages=setuptools.find_packages(),
     classifiers=[
