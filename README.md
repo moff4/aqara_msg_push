@@ -1,6 +1,8 @@
 # aqara_msg_push
 SDK for Aqara Message Push
 
+[![CodeFactor](https://www.codefactor.io/repository/github/moff4/aqara_msg_push/badge)](https://www.codefactor.io/repository/github/moff4/aqara_msg_push)
+
 ## Package has
  - Pydantic models for Message Push Format
  - Simple consumer for RocketMQ with Aqara confiquration
