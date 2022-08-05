@@ -5,10 +5,23 @@ SDK for Aqara Message Push
 
 ## Package has
  - Pydantic models for Message Push Format
+ - function for mapping custom json from message queue to Pydantic model 
  - Simple consumer for RocketMQ with Aqara confiquration
 
-## Example of Usage:
+## Install
 
+Library installs with command:
+
+```bash
+pip install aqara-msg-push
+```
+
+For consuming you will also need: 
+- [rocketmq-client-python](https://github.com/apache/rocketmq-client-python) - tiny python lib - python wrapper for cpp lib
+- librocketmq - cpp lib (for installation guide check [rocketmq-client-python README.md](https://github.com/apache/rocketmq-client-python))
+
+
+## Example of Usage:
 
 ```python
 from aqara_msg_push import MessageConsumer, TopLevelMessage
