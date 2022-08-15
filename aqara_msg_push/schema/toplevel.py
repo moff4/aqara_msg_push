@@ -35,7 +35,7 @@ class DeviceAttributeMessage(TimeMixin, TopLevelMessage):
 class DeviceControlFailureMessage(TimeMixin, TopLevelMessage):
 
     # Message content
-    data: list[DeviceStateMessage]
+    data: DeviceStateMessage
 
     # Message type, control_fail
     event_type: EventType = Field(EventType.CONTROL_FAIL, alias='eventType')

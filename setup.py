@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='aqara_msg_push',
-    version='1.0.1',
+    version='1.0.2',
     author='Komissarov Andrey',
     author_email='Komissar.off.andrey@gmail.com',
     description='Aqara Message Push SDK',
